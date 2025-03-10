@@ -1,1 +1,24 @@
+# Dataset for Image Captioning
 
+The full **Flickr8k Dataset (images)** is too large for GitHub and is stored in **GitHub Releases**.
+
+## Download the Dataset
+**[Download Flickr8k Dataset from GitHub Releases](https://github.com/DataProjectHub/CODSOFT_Image_Captioning/releases/tag/v1.0)**  
+**Extract the ZIP file into this `data/` folder before running the project.**
+
+### Include the following in folder, data/:
+- Flickr8k_text/CrowdFlowerAnnotations
+- Flickr8k_text/ExpertAnnotations
+- Flickr8k_text/Flickr8k.lemma.token
+- Flickr8k_text/Flickr8k.token
+- Flickr8k_text/Flickr_8k.trainImages.txt
+- Flickr8k_text/Flickr_8k.devImages.txt
+- Flickr8k_text/Flickr_8k.testImages.txt
+- cleaned_captions.csv
+- Flickr8k_Dataset
+- image_features.pkl
+
+**Steps to Setup:**
+1. **Download the dataset** from GitHub Releases.
+2. **Extract the files** inside the `data/` folder.
+3. **Ensure folder structure looks like this:**
